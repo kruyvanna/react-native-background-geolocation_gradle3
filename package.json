@@ -1,0 +1,52 @@
+{
+  "name": "react-native-mauron85-background-geolocation",
+  "version": "0.5.0-hot.1",
+  "description": "optimized background location tracking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/vivekkiran/react-native-background-geolocation.git"
+  },
+  "keywords": [
+    "gps",
+    "geolocation",
+    "position",
+    "location",
+    "tracking",
+    "background",
+    "react",
+    "react-native",
+    "react-component",
+    "android",
+    "ios"
+  ],
+  "author": "Marian Hello",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url":
+      "https://github.com/vivekkiran/react-native-background-geolocation/issues"
+  },
+  "homepage":
+    "https://github.com/vivekkiran/react-native-background-geolocation#readme",
+  "peerDependencies": {
+    "react-native": ">0.49.0"
+  },
+  "devDependencies": {
+    "plist": "^3.0.1"
+  },
+  "rnpm": {
+    "commands": {
+      "postlink":
+        "node node_modules/react-native-vivekkiran-background-geolocation/scripts/postlink.js",
+      "postunlink":
+        "node node_modules/react-native-vivekkiran-background-geolocation/scripts/postunlink.js"
+    },
+    "android": {
+      "sourceDir": "./android/lib"
+    }
+  }
+}
