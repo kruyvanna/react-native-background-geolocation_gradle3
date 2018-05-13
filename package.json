@@ -41,9 +41,9 @@
   "rnpm": {
     "commands": {
       "postlink":
-        "node node_modules/react-native-vivekkiran-background-geolocation/scripts/postlink.js",
+        "node node_modules/react-native-mauron85-background-geolocation/scripts/postlink.js",
       "postunlink":
-        "node node_modules/react-native-vivekkiran-background-geolocation/scripts/postunlink.js"
+        "node node_modules/react-native-mauron85-background-geolocation/scripts/postunlink.js"
     },
     "android": {
       "sourceDir": "./android/lib"
