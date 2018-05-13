@@ -5,7 +5,9 @@ A temporary workaround for react-native-background-geolocation with project usin
 
 `
 yarn add https://github.com/kruyvanna/react-native-background-geolocation_gradle3.git
+`
 
+`
 react-native link react-native-mauron85-background-geolocation
 `
 
